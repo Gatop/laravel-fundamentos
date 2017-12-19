@@ -16,13 +16,20 @@ Route::get('/', ['as' => 'home', function () {
 }]);
 
 Route::get('contactanos', ['as' => 'contactanos', function(){
-    return "Seccion de contactos";
+    return view('contactos');
 }]);
 
 Route::get('saludos/{nombre?}', ['as' => 'saludos',  function ($nombre = "Invitado") {
+    $html = "<h2>Contenido html</h2>";
+    $script = "<script>alert('Hola injection')</script>";
+    $consolas = [
+        'consola 1',
+        'consola 2',
+        'consola 3'
+    ];
     //return view('saludo', ['nombre'=> $nombre]);
     //return view('saludo')->with(['nombre'=> $nombre]);
 
     // return the value stored in the variable
-    return view('saludo', compact('nombre'));
+    return view('saludo', compact('nombre', 'html', 'script', 'consolas'));
 }]);
