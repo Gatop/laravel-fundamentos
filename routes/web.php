@@ -11,14 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', ['as' => 'home', function () {
+    return view('home');
+}]);
 
-Route::get('contactanos', ['as' => 'contactos', function(){
+Route::get('contactanos', ['as' => 'contactanos', function(){
     return "Seccion de contactos";
 }]);
 
-Route::get('saludos/{nombre}', function ($nombre) {
-    return "salidos $nombre";
-});
+Route::get('saludos/{nombre?}', ['as' => 'saludos',  function ($nombre = "Invitado") {
+    //return view('saludo', ['nombre'=> $nombre]);
+    //return view('saludo')->with(['nombre'=> $nombre]);
+
+    // return the value stored in the variable
+    return view('saludo', compact('nombre'));
+}]);
