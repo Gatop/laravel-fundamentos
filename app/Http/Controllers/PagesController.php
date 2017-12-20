@@ -6,12 +6,21 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
+
     public function home() {
         return view('home');
     }
 
     public function contact() {
         return view('contactos');
+    }
+
+    public function mensajes(Request $request) {
+        // filled para 5.5, has para older version
+        if ($request->filled('nombre')) {
+            return "Si tiene nombre. Es " . $request->input('nombre');
+        }
+        return "No tiene nombre";
     }
 
     public function saludo($nombre = 'invitado') {
