@@ -1,0 +1,831 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"di",
+				"display"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"fore",
+				"foreach\t<?php foreach (…) … <?php endforeach ?>"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"component",
+				"components"
+			],
+			[
+				"r",
+				"refreshTokensExpireIn〔function〕"
+			],
+			[
+				"t",
+				"tokensExpireIn〔function〕"
+			],
+			[
+				"User",
+				"UserTransformer〔class〕"
+			],
+			[
+				"trans",
+				"transformer"
+			],
+			[
+				"tra",
+				"$transformer〔variable〕"
+			],
+			[
+				"tran",
+				"transformer"
+			],
+			[
+				"Spa",
+				"Spatie\\Fractal\\FractalServiceProvider〔class〕"
+			],
+			[
+				"USUA",
+				"USUARIO_NO_VERIFICADO"
+			],
+			[
+				"bu",
+				"buyer_id"
+			],
+			[
+				"product",
+				"$product〔variable〕"
+			],
+			[
+				"sh",
+				"showAll"
+			],
+			[
+				"s",
+				"sync〔function〕"
+			],
+			[
+				"pro",
+				"$product〔variable〕"
+			],
+			[
+				"sell",
+				"$seller〔variable〕"
+			],
+			[
+				"va",
+				"verificarVendedor〔function〕"
+			],
+			[
+				"categor",
+				"$category〔variable〕"
+			],
+			[
+				"categ",
+				"$category〔variable〕"
+			],
+			[
+				"show",
+				"showOne"
+			],
+			[
+				"req",
+				"$request〔variable〕"
+			],
+			[
+				"class",
+				"class_basename〔function〕"
+			],
+			[
+				"erro",
+				"errorResponse"
+			],
+			[
+				"con",
+				"convertValidationExceptionToResponse〔function〕"
+			],
+			[
+				"Va",
+				"ValidationException"
+			],
+			[
+				"exc",
+				"$exception〔variable〕"
+			],
+			[
+				"er",
+				"$errors〔variable〕"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"U",
+				"USUARIO_NO_VERIFICADO"
+			],
+			[
+				"catego",
+				"$categorias〔variable〕"
+			],
+			[
+				"ca",
+				"cantidadCategorias"
+			],
+			[
+				"can",
+				"$cantidadUsuarios〔variable〕"
+			],
+			[
+				"be",
+				"belongsToMany〔function〕"
+			],
+			[
+				"Pro",
+				"PRODUCTO_DISPONIBLE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "routes/api.php",
+			"settings":
+			{
+				"buffer_size": 528,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 1427,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/MessagesController.php",
+			"settings":
+			{
+				"buffer_size": 2669,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/messages/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 1176,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/layout.blade.php",
+			"settings":
+			{
+				"buffer_size": 973,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/messages/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 1128,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/messages/edit.blade.php",
+			"settings":
+			{
+				"buffer_size": 1095,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/messages/show.blade.php",
+			"settings":
+			{
+				"buffer_size": 174,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/laragon/www/Laravel-Fundamentos",
+		"/C/laragon/www/Laravel-Fundamentos/app",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Middleware",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Requests",
+		"/C/laragon/www/Laravel-Fundamentos/resources",
+		"/C/laragon/www/Laravel-Fundamentos/resources/lang",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages",
+		"/C/laragon/www/Laravel-Fundamentos/routes"
+	],
+	"file_history":
+	[
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages/show.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/contactos.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/database/migrations/2017_12_21_040812_create_messages_table.php",
+		"/C/laragon/www/Laravel-Fundamentos/config/database.php",
+		"/C/laragon/www/Laravel-Fundamentos/.env",
+		"/C/laragon/www/Laravel-Fundamentos/database/migrations/2017_12_21_041315_add_phone_messages_table.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Middleware/Example.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/PagesController.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Kernel.php",
+		"/C/laragon/www/Laravel-Fundamentos/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Middleware/VerifyCsrfToken.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Requests/CreateMessageRequest.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/layout.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/config/app.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/lang/es/validation.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/Controller.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/lang/es/auth.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/lang/es/pagination.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/lang/es/passwords.php",
+		"/C/laragon/www/Laravel-Fundamentos/routes/web.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/home.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/saludo.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/layout.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/saludo.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/contactos.php",
+		"/C/laragon/www/APIRestful/app/Providers/AuthServiceProvider.php",
+		"/C/laragon/www/APIRestful/readme.md",
+		"/C/laragon/www/APIRestful/resources/views/home/personal-clients.blade.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/User/UserController.php",
+		"/C/laragon/www/APIRestful/resources/assets/js/app.js",
+		"/C/laragon/www/APIRestful/routes/web.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/HomeController.php",
+		"/C/laragon/www/APIRestful/resources/views/home/personal-tokens.blade.php",
+		"/C/laragon/www/APIRestful/resources/views/home/authorized-clients.blade.php",
+		"/C/laragon/www/APIRestful/resources/views/layouts/app.blade.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Transaction/TransactionController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Transaction/TransactionSellerController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Seller/SellerTransactionController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Product/ProductTransactionController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Seller/SellerBuyerController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Seller/SellerCategoryController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Seller/SellerController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Category/CategoryController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Category/CategorySellerController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Category/CategoryTransactionController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Product/ProductBuyerController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Product/ProductCategoryController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Category/CategoryBuyerController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/ApiController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Buyer/BuyerCategoryController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Buyer/BuyerController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Buyer/BuyerProductController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Buyer/BuyerSellerController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Buyer/BuyerTransactionController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Category/CategoryProductController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Product/ProductController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Transaction/TransactionCategoryController.php",
+		"/C/laragon/www/APIRestful/app/Category.php",
+		"/C/laragon/www/APIRestful/app/Http/Kernel.php",
+		"/C/laragon/www/APIRestful/config/app.php",
+		"/C/laragon/www/APIRestful/app/User.php",
+		"/C/laragon/www/APIRestful/config/auth.php",
+		"/C/laragon/www/APIRestful/routes/api.php",
+		"/C/laragon/www/APIRestful/vendor/laravel/passport/src/HasApiTokens.php",
+		"/C/laragon/www/APIRestful/app/Exceptions/Handler.php",
+		"/C/laragon/www/APIRestful/resources/views/welcome.blade.php",
+		"/C/laragon/www/APIRestful/app/Http/Middleware/TransformInput.php",
+		"/C/laragon/www/APIRestful/app/Traits/ApiResponser.php",
+		"/C/laragon/www/APIRestful/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/C/laragon/www/APIRestful/app/Transformers/CategoryTransformer.php",
+		"/C/laragon/www/APIRestful/app/Transformers/BuyerTransformer.php",
+		"/C/laragon/www/APIRestful/app/Transformers/ProductTransformer.php",
+		"/C/laragon/www/APIRestful/app/Transformers/SellerTransformer.php",
+		"/C/laragon/www/APIRestful/app/Transformers/TransactionTransformer.php",
+		"/C/laragon/www/APIRestful/app/Transformers/UserTransformer.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Product/ProductBuyerTransactionController.php",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/Seller/SellerProductController.php",
+		"/C/laragon/www/APIRestful/app/Transaction.php",
+		"/C/laragon/www/APIRestful/app/Seller.php",
+		"/C/laragon/www/APIRestful/app/Product.php",
+		"/C/laragon/www/APIRestful/app/Buyer.php",
+		"/C/laragon/www/APIRestful/storage/logs/laravel.log",
+		"/C/laragon/www/APIRestful/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
+		"/C/laragon/www/APIRestful/app/Http/Middleware/SignatureMiddleware.php",
+		"/C/laragon/www/APIRestful/app/Mail/UserMailChanged.php",
+		"/C/laragon/www/APIRestful/app/Http/Middleware/TrimStrings.php",
+		"/C/laragon/www/APIRestful/app/Providers/AppServiceProvider.php",
+		"/C/laragon/www/APIRestful/app/Mail/UserCreated.php",
+		"/C/laragon/www/APIRestful/resources/views/emails/confirm.blade.php",
+		"/C/laragon/www/APIRestful/resources/views/emails/welcome.blade.php",
+		"/C/laragon/www/APIRestful/database/seeds/DatabaseSeeder.php",
+		"/C/laragon/www/APIRestful/config/mail.php",
+		"/C/laragon/www/APIRestful/config/services.php",
+		"/C/laragon/www/APIRestful/.env",
+		"/C/laragon/www/APIRestful/.env.example",
+		"/C/laragon/www/APIRestful/config/filesystems.php",
+		"/C/laragon/www/APIRestful/public/img/.gitignore",
+		"/C/laragon/www/APIRestful/database/migrations/2017_12_12_051557_create_categories_table.php",
+		"/C/laragon/www/APIRestful/database/migrations/2017_10_12_000000_create_users_table.php",
+		"/C/laragon/www/APIRestful/database/migrations/2017_10_12_100000_create_password_resets_table.php",
+		"/C/laragon/www/APIRestful/database/migrations/2017_12_12_051436_create_products_table.php",
+		"/C/laragon/www/APIRestful/database/migrations/2017_12_12_051526_create_transactions_table.php",
+		"/C/laragon/www/APIRestful/app/Scopes/SellerScope.php",
+		"/C/laragon/www/APIRestful/app/Scopes/BuyerScope.php",
+		"/C/laragon/www/APIRestful/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+		"/C/laragon/www/APIRestful/vendor/laravel/framework/src/Illuminate/Contracts/Debug/ExceptionHandler.php",
+		"/C/laragon/www/APIRestful/database/factories/ModelFactory.php",
+		"/C/laragon/www/APIRestful/database/migrations/2017_12_14_033633_category_product_table.php",
+		"/C/laragon/www/APIRestful/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/laragon/www/APIRestful/app/Providers/RouteServiceProvider.php",
+		"/C/Users/Gatop/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/C/Users/Gatop/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
+		"/C/laragon/www/APIRestful/hey",
+		"/C/laragon/www/APIRestful/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
+		"/C/djangogirls/blog/templates/blog/post_edit.html",
+		"/C/djangogirls/blog/urls.py",
+		"/C/djangogirls/myfirstweb/settings.py",
+		"/C/djangogirls/blog/views.py",
+		"/C/djangogirls/blog/templates/blog/post_list.html",
+		"/C/djangogirls/blog/templates/blog/base.html",
+		"/C/djangogirls/blog/templates/blog/post_detail.html",
+		"/C/djangogirls/blog/forms.py",
+		"/C/djangogirls/myfirstweb/urls.py",
+		"/C/djangogirls/blog/static/css/blog.css",
+		"/C/djangogirls/blog/models.py",
+		"/C/djangogirls/blog/admin.py"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"element",
+			"verify",
+			"'transform.input'",
+			"sent",
+			"sended",
+			"sendeds",
+			"category",
+			"transaction",
+			"category",
+			"seller",
+			"buyer",
+			"user",
+			"\t\t\t\t",
+			"hi",
+			"()",
+			"--------------------')"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"message",
+			"sent",
+			"product",
+			"transaction",
+			"category",
+			"seller",
+			"buyer",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "routes/api.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								528,
+								421
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1421,
+								1421
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Controllers/MessagesController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2660,
+								2660
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/messages/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								967,
+								967
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/layout.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								852,
+								852
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/messages/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								1102
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/views/messages/edit.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								195
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "resources/views/messages/show.blade.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "laravel_fundamentos.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"iluminateroutrouter",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 782.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
