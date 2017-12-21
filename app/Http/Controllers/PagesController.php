@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\CreateMessageRequest;
 
 class PagesController extends Controller
 {
@@ -15,12 +16,10 @@ class PagesController extends Controller
         return view('contactos');
     }
 
-    public function mensajes(Request $request) {
+    public function mensajes(CreateMessageRequest $request) {
+
         // filled para 5.5, has para older version
-        if ($request->filled('nombre')) {
-            return "Si tiene nombre. Es " . $request->input('nombre');
-        }
-        return "No tiene nombre";
+        return $request->all();
     }
 
     public function saludo($nombre = 'invitado') {

@@ -7,6 +7,11 @@
             text-decoration: none;
             color: green;
         }
+
+        .error {
+            color: red;
+            font-size: 10px;
+        }
     </style>
     <title>Mi sitio</title>
 </head>
