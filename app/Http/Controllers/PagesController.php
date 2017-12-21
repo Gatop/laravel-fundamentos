@@ -18,8 +18,11 @@ class PagesController extends Controller
 
     public function mensajes(CreateMessageRequest $request) {
 
-        // filled para 5.5, has para older version
-        return $request->all();
+        $data = $request->all();
+
+        // back to the previews location
+        return back()->with('info', 'Tu mensaje ha sido recibido exitosamente');
+
     }
 
     public function saludo($nombre = 'invitado') {
