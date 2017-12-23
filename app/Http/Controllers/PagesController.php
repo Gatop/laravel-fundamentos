@@ -15,19 +15,6 @@ class PagesController extends Controller
         return view('home');
     }
 
-    public function contact() {
-        return view('contactos');
-    }
-
-    public function mensajes(CreateMessageRequest $request) {
-
-        $data = $request->all();
-
-        // back to the previews location
-        return back()->with('info', 'Tu mensaje ha sido recibido exitosamente');
-
-    }
-
     public function saludo($nombre = 'invitado') {
         $html = "<h2>Contenido html</h2>";
         $script = "<script>alert('Hola injection')</script>";
