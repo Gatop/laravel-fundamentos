@@ -10,6 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+// App\User::create([
+//     'name' => 'jegaest',
+//     'email' => 'jegaest@juju.com',
+//     'password' => bcrypt('test123'),
+//     'role' =>'estudiante'
+// ]);
+
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@home']);
 Route::get('/home', ['as' => 'home', 'uses' => 'PagesController@home']);
 
@@ -17,6 +24,9 @@ Route::get('saludos/{nombre?}', ['as' => 'saludos', 'uses' => 'PagesController@s
 
 // Implementation for messages
 Route::resource('mensajes', 'MessagesController');
+
+// Implementation for users
+Route::resource('usuarios', 'UsersController');
 
 Route::get('login', 'Auth\LoginController@showLoginForm');
 Route::post('login', 'Auth\LoginController@login')->name('login');

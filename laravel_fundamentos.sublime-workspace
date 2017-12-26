@@ -4,8 +4,24 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-color"
+			],
+			[
 				"di",
-				"display"
+				"div\tTag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"h",
+				"html\thtml"
 			],
 			[
 				"th",
@@ -30,10 +46,6 @@
 			[
 				"st",
 				"style\tTag"
-			],
-			[
-				"fo",
-				"footer\tTag"
 			],
 			[
 				"me",
@@ -188,74 +200,47 @@
 	"buffers":
 	[
 		{
-			"file": "routes/api.php",
-			"settings":
-			{
-				"buffer_size": 528,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/web.php",
-			"settings":
-			{
-				"buffer_size": 1427,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/MessagesController.php",
-			"settings":
-			{
-				"buffer_size": 2669,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/messages/index.blade.php",
-			"settings":
-			{
-				"buffer_size": 1176,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "resources/views/layout.blade.php",
 			"settings":
 			{
-				"buffer_size": 973,
+				"buffer_size": 3394,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/views/messages/create.blade.php",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 1128,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 1270,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/messages/edit.blade.php",
+			"file": "public/js/all.js",
 			"settings":
 			{
-				"buffer_size": 1095,
+				"buffer_size": 123804,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/messages/show.blade.php",
+			"file": "resources/assets/js/app.js",
 			"settings":
 			{
-				"buffer_size": 174,
-				"line_ending": "Windows"
+				"buffer_size": 30,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.mix.js",
+			"settings":
+			{
+				"buffer_size": 333,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -275,7 +260,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 496.0
+		"width": 592.0
 	},
 	"console":
 	{
@@ -297,19 +282,44 @@
 	"expanded_folders":
 	[
 		"/C/laragon/www/Laravel-Fundamentos",
-		"/C/laragon/www/Laravel-Fundamentos/app",
-		"/C/laragon/www/Laravel-Fundamentos/app/Http",
-		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers",
-		"/C/laragon/www/Laravel-Fundamentos/app/Http/Middleware",
-		"/C/laragon/www/Laravel-Fundamentos/app/Http/Requests",
+		"/C/laragon/www/Laravel-Fundamentos/public",
+		"/C/laragon/www/Laravel-Fundamentos/public/js",
 		"/C/laragon/www/Laravel-Fundamentos/resources",
-		"/C/laragon/www/Laravel-Fundamentos/resources/lang",
-		"/C/laragon/www/Laravel-Fundamentos/resources/views",
-		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages",
-		"/C/laragon/www/Laravel-Fundamentos/routes"
+		"/C/laragon/www/Laravel-Fundamentos/resources/assets",
+		"/C/laragon/www/Laravel-Fundamentos/resources/assets/js",
+		"/C/laragon/www/Laravel-Fundamentos/resources/assets/sass",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views"
 	],
 	"file_history":
 	[
+		"/C/laragon/www/Laravel-Fundamentos/node_modules/jquery/dist/jquery.js",
+		"/C/laragon/www/Laravel-Fundamentos/resources/assets/sass/app.scss",
+		"/C/laragon/www/Laravel-Fundamentos/resources/assets/sass/components/navbar.scss",
+		"/C/laragon/www/Laravel-Fundamentos/public/js/app.js",
+		"/C/laragon/www/Laravel-Fundamentos/public/js/jquery.js",
+		"/C/laragon/www/Laravel-Fundamentos/webpack.mix.js",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/layout.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages/index.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages/edit.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages/create.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/auth/login.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/package.json",
+		"/C/laragon/www/Laravel-Fundamentos/public/css/app.css",
+		"/C/laragon/www/Laravel-Fundamentos/resources/assets/less/styles.less",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/Auth/LoginController.php",
+		"/C/laragon/www/Laravel-Fundamentos/routes/web.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/home.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Kernel.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/MessagesController.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/PagesController.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/errors/404.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Message.php",
+		"/C/laragon/www/Laravel-Fundamentos/storage/framework/views/86d297cc634ce60e0e7c89a347bd4949acc42c1c.php",
+		"/C/laragon/www/Laravel-Fundamentos/storage/framework/views/682f5c08d7a144f8cc1f1e919d594caf4960a2b5.php",
+		"/C/laragon/www/Laravel-Fundamentos/storage/framework/views/4069133bbda58c17b01419f01944d740381f7967.php",
+		"/C/laragon/www/Laravel-Fundamentos/storage/framework/views/2ca6ac6f5b494aafac4036ea18366ce116e2a458.php",
+		"/C/laragon/www/Laravel-Fundamentos/routes/api.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages/show.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/views/contactos.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/database/migrations/2017_12_21_040812_create_messages_table.php",
@@ -317,20 +327,15 @@
 		"/C/laragon/www/Laravel-Fundamentos/.env",
 		"/C/laragon/www/Laravel-Fundamentos/database/migrations/2017_12_21_041315_add_phone_messages_table.php",
 		"/C/laragon/www/Laravel-Fundamentos/app/Http/Middleware/Example.php",
-		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/PagesController.php",
-		"/C/laragon/www/Laravel-Fundamentos/app/Http/Kernel.php",
 		"/C/laragon/www/Laravel-Fundamentos/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php",
 		"/C/laragon/www/Laravel-Fundamentos/app/Http/Middleware/VerifyCsrfToken.php",
 		"/C/laragon/www/Laravel-Fundamentos/app/Http/Requests/CreateMessageRequest.php",
-		"/C/laragon/www/Laravel-Fundamentos/resources/views/layout.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/config/app.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/lang/es/validation.php",
 		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/Controller.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/lang/es/auth.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/lang/es/pagination.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/lang/es/passwords.php",
-		"/C/laragon/www/Laravel-Fundamentos/routes/web.php",
-		"/C/laragon/www/Laravel-Fundamentos/resources/views/home.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/views/saludo.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/layout.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/views/saludo.php",
@@ -414,28 +419,7 @@
 		"/C/laragon/www/APIRestful/database/migrations/2017_12_12_051526_create_transactions_table.php",
 		"/C/laragon/www/APIRestful/app/Scopes/SellerScope.php",
 		"/C/laragon/www/APIRestful/app/Scopes/BuyerScope.php",
-		"/C/laragon/www/APIRestful/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
-		"/C/laragon/www/APIRestful/vendor/laravel/framework/src/Illuminate/Contracts/Debug/ExceptionHandler.php",
-		"/C/laragon/www/APIRestful/database/factories/ModelFactory.php",
-		"/C/laragon/www/APIRestful/database/migrations/2017_12_14_033633_category_product_table.php",
-		"/C/laragon/www/APIRestful/database/migrations/2014_10_12_000000_create_users_table.php",
-		"/C/laragon/www/APIRestful/app/Providers/RouteServiceProvider.php",
-		"/C/Users/Gatop/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
-		"/C/Users/Gatop/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
-		"/C/laragon/www/APIRestful/hey",
-		"/C/laragon/www/APIRestful/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
-		"/C/djangogirls/blog/templates/blog/post_edit.html",
-		"/C/djangogirls/blog/urls.py",
-		"/C/djangogirls/myfirstweb/settings.py",
-		"/C/djangogirls/blog/views.py",
-		"/C/djangogirls/blog/templates/blog/post_list.html",
-		"/C/djangogirls/blog/templates/blog/base.html",
-		"/C/djangogirls/blog/templates/blog/post_detail.html",
-		"/C/djangogirls/blog/forms.py",
-		"/C/djangogirls/myfirstweb/urls.py",
-		"/C/djangogirls/blog/static/css/blog.css",
-		"/C/djangogirls/blog/models.py",
-		"/C/djangogirls/blog/admin.py"
+		"/C/laragon/www/APIRestful/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php"
 	],
 	"find":
 	{
@@ -443,9 +427,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 158.0,
 		"where_history":
 		[
+			"C:\\laragon\\www\\Laravel-Fundamentos"
 		]
 	},
 	"find_state":
@@ -453,6 +438,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"route('messages.",
 			"element",
 			"verify",
 			"'transform.input'",
@@ -476,6 +462,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"route('mensajes.",
 			"message",
 			"sent",
 			"product",
@@ -494,59 +481,63 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "routes/api.php",
+					"file": "resources/views/layout.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 528,
+						"buffer_size": 3394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								528,
-								421
+								3340,
+								3340
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "routes/web.php",
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1427,
+						"buffer_size": 1270,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1421,
-								1421
+								951,
+								960
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"auto_complete": true,
+							"syntax": "Packages/Materialize/Langs/npm JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -557,167 +548,11 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/Http/Controllers/MessagesController.php",
+					"file": "public/js/all.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2669,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1127,
-								1127
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1125.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/messages/index.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1176,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								967,
-								967
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "resources/views/layout.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 973,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								852,
-								852
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "resources/views/messages/create.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1128,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								1102
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "resources/views/messages/edit.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1095,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215,
-								195
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "resources/views/messages/show.blade.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 174,
+						"buffer_size": 123804,
 						"regions":
 						{
 						},
@@ -730,13 +565,73 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 46.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/assets/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "webpack.mix.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								290
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -781,7 +676,7 @@
 	"project": "laravel_fundamentos.sublime-project",
 	"replace":
 	{
-		"height": 114.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -790,6 +685,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"login",
+				"resources\\views\\auth\\login.blade.php"
+			],
 			[
 				"iluminateroutrouter",
 				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
@@ -823,7 +722,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 300.0,
+	"side_bar_width": 312.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
