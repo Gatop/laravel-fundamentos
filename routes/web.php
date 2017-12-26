@@ -11,11 +11,14 @@
 |
 */
 // App\User::create([
-//     'name' => 'jegaest',
-//     'email' => 'jegaest@juju.com',
+//     'name' => 'jegamod',
+//     'email' => 'jegamod@juju.com',
 //     'password' => bcrypt('test123'),
-//     'role' =>'estudiante'
+//     'role_id' => 2
 // ]);
+Route::get('roles', function(){
+    return \App\Role::with('user')->get();
+});
 
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@home']);
 Route::get('/home', ['as' => 'home', 'uses' => 'PagesController@home']);
