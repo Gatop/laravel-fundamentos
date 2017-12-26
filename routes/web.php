@@ -11,10 +11,9 @@
 |
 */
 // App\User::create([
-//     'name' => 'jegamod',
-//     'email' => 'jegamod@juju.com',
+//     'name' => 'jegaest',
+//     'email' => 'jegaest@juju.com',
 //     'password' => bcrypt('test123'),
-//     'role_id' => 2
 // ]);
 Route::get('roles', function(){
     return \App\Role::with('user')->get();
