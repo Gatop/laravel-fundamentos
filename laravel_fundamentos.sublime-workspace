@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"function",
+				"create_function"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"arra_s",
+				"array_slice〔function〕"
+			],
+			[
+				"func",
+				"func_get_args〔function〕"
+			],
+			[
 				"ba",
 				"background-color"
 			],
@@ -14,10 +34,6 @@
 			[
 				"wid",
 				"width"
-			],
-			[
-				"fo",
-				"form\tTag"
 			],
 			[
 				"h",
@@ -34,10 +50,6 @@
 			[
 				"in",
 				"input\tTag"
-			],
-			[
-				"for",
-				"form\tTag"
 			],
 			[
 				"text",
@@ -200,45 +212,63 @@
 	"buffers":
 	[
 		{
-			"file": "resources/views/layout.blade.php",
+			"file": "app/User.php",
 			"settings":
 			{
-				"buffer_size": 3394,
+				"buffer_size": 930,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Role.php",
+			"settings":
+			{
+				"buffer_size": 176,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/UsersController.php",
+			"settings":
+			{
+				"buffer_size": 1725,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Middleware/CheckRoles.php",
+			"settings":
+			{
+				"buffer_size": 562,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/users/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 784,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "package.json",
+			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 1270,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/js/all.js",
-			"settings":
-			{
-				"buffer_size": 123804,
+				"buffer_size": 1209,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/assets/js/app.js",
+			"file": "database/migrations/2017_12_26_012201_create_assigned_roles_table.php",
 			"settings":
 			{
-				"buffer_size": 30,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webpack.mix.js",
-			"settings":
-			{
-				"buffer_size": 333,
+				"buffer_size": 691,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -282,34 +312,47 @@
 	"expanded_folders":
 	[
 		"/C/laragon/www/Laravel-Fundamentos",
-		"/C/laragon/www/Laravel-Fundamentos/public",
-		"/C/laragon/www/Laravel-Fundamentos/public/js",
+		"/C/laragon/www/Laravel-Fundamentos/app",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Middleware",
+		"/C/laragon/www/Laravel-Fundamentos/database",
+		"/C/laragon/www/Laravel-Fundamentos/database/migrations",
 		"/C/laragon/www/Laravel-Fundamentos/resources",
-		"/C/laragon/www/Laravel-Fundamentos/resources/assets",
-		"/C/laragon/www/Laravel-Fundamentos/resources/assets/js",
-		"/C/laragon/www/Laravel-Fundamentos/resources/assets/sass",
-		"/C/laragon/www/Laravel-Fundamentos/resources/views"
+		"/C/laragon/www/Laravel-Fundamentos/resources/views",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/users",
+		"/C/laragon/www/Laravel-Fundamentos/routes"
 	],
 	"file_history":
 	[
+		"/C/laragon/www/Laravel-Fundamentos/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/laragon/www/Laravel-Fundamentos/database/migrations/2017_12_26_005750_create_roles_table.php",
+		"/C/laragon/www/Laravel-Fundamentos/routes/web.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/layout.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/User.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/UsersController.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Middleware/CheckRoles.php",
+		"/C/laragon/www/Laravel-Fundamentos/app/Http/Kernel.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages/show.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/resources/views/users/index.blade.php",
+		"/C/laragon/www/Laravel-Fundamentos/package.json",
+		"/C/laragon/www/Laravel-Fundamentos/public/js/all.js",
+		"/C/laragon/www/Laravel-Fundamentos/resources/assets/js/app.js",
+		"/C/laragon/www/Laravel-Fundamentos/webpack.mix.js",
 		"/C/laragon/www/Laravel-Fundamentos/node_modules/jquery/dist/jquery.js",
 		"/C/laragon/www/Laravel-Fundamentos/resources/assets/sass/app.scss",
 		"/C/laragon/www/Laravel-Fundamentos/resources/assets/sass/components/navbar.scss",
 		"/C/laragon/www/Laravel-Fundamentos/public/js/app.js",
 		"/C/laragon/www/Laravel-Fundamentos/public/js/jquery.js",
-		"/C/laragon/www/Laravel-Fundamentos/webpack.mix.js",
-		"/C/laragon/www/Laravel-Fundamentos/resources/views/layout.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages/index.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages/edit.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages/create.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/views/auth/login.blade.php",
-		"/C/laragon/www/Laravel-Fundamentos/package.json",
 		"/C/laragon/www/Laravel-Fundamentos/public/css/app.css",
 		"/C/laragon/www/Laravel-Fundamentos/resources/assets/less/styles.less",
 		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/Auth/LoginController.php",
-		"/C/laragon/www/Laravel-Fundamentos/routes/web.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/views/home.blade.php",
-		"/C/laragon/www/Laravel-Fundamentos/app/Http/Kernel.php",
 		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/MessagesController.php",
 		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/Auth/RegisterController.php",
 		"/C/laragon/www/Laravel-Fundamentos/app/Http/Controllers/PagesController.php",
@@ -320,7 +363,6 @@
 		"/C/laragon/www/Laravel-Fundamentos/storage/framework/views/4069133bbda58c17b01419f01944d740381f7967.php",
 		"/C/laragon/www/Laravel-Fundamentos/storage/framework/views/2ca6ac6f5b494aafac4036ea18366ce116e2a458.php",
 		"/C/laragon/www/Laravel-Fundamentos/routes/api.php",
-		"/C/laragon/www/Laravel-Fundamentos/resources/views/messages/show.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/resources/views/contactos.blade.php",
 		"/C/laragon/www/Laravel-Fundamentos/database/migrations/2017_12_21_040812_create_messages_table.php",
 		"/C/laragon/www/Laravel-Fundamentos/config/database.php",
@@ -411,19 +453,11 @@
 		"/C/laragon/www/APIRestful/.env",
 		"/C/laragon/www/APIRestful/.env.example",
 		"/C/laragon/www/APIRestful/config/filesystems.php",
-		"/C/laragon/www/APIRestful/public/img/.gitignore",
-		"/C/laragon/www/APIRestful/database/migrations/2017_12_12_051557_create_categories_table.php",
-		"/C/laragon/www/APIRestful/database/migrations/2017_10_12_000000_create_users_table.php",
-		"/C/laragon/www/APIRestful/database/migrations/2017_10_12_100000_create_password_resets_table.php",
-		"/C/laragon/www/APIRestful/database/migrations/2017_12_12_051436_create_products_table.php",
-		"/C/laragon/www/APIRestful/database/migrations/2017_12_12_051526_create_transactions_table.php",
-		"/C/laragon/www/APIRestful/app/Scopes/SellerScope.php",
-		"/C/laragon/www/APIRestful/app/Scopes/BuyerScope.php",
-		"/C/laragon/www/APIRestful/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php"
+		"/C/laragon/www/APIRestful/public/img/.gitignore"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -486,73 +520,102 @@
 			[
 				{
 					"buffer": 0,
-					"file": "resources/views/layout.blade.php",
+					"file": "app/User.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3394,
+						"buffer_size": 930,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3340,
-								3340
+								809,
+								809
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Role.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "package.json",
+					"buffer": 2,
+					"file": "app/Http/Controllers/UsersController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1270,
+						"buffer_size": 1725,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								951,
-								960
+								210,
+								210
 							]
 						],
 						"settings":
 						{
-							"auto_complete": true,
-							"syntax": "Packages/Materialize/Langs/npm JSON.tmLanguage",
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 630.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "public/js/all.js",
-					"semi_transient": false,
+					"buffer": 3,
+					"file": "app/Http/Middleware/CheckRoles.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 123804,
+						"buffer_size": 562,
 						"regions":
 						{
 						},
@@ -565,73 +628,106 @@
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 46.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "resources/assets/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 30,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "webpack.mix.js",
+					"file": "resources/views/users/index.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 333,
+						"buffer_size": 784,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								279,
-								290
+								584,
+								584
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								524,
+								393
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "database/migrations/2017_12_26_012201_create_assigned_roles_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								404
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
