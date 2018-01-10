@@ -16,11 +16,7 @@
                     <td>{{ $user->id }}</td>
                     <td>{{ $user->name }}</td>
                     <td>{{ $user->email }}</td>
-                    <td>
-                        @foreach ($user->roles as $role)
-                            {{ $role->display_name }}
-                        @endforeach
-                    </td>
+                    <td>{{ $user->roles->pluck('display_name')->implode(' - ')}}</td>
                     <td>
                         <a class="btn btn-info btn-xs" href="{{ route('usuarios.edit', $user->id) }}">Editar</a>
                         <form style="display: inline;" method="POST" action="{{route('usuarios.destroy', $user->id)}}">
