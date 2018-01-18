@@ -28,7 +28,7 @@
                         <td>{{ $message->email }}</td>
                     @endif
                     <td><a href="{{ route('mensajes.show', $message->id) }}">{{ $message->mensaje }}</a></td>
-                    <td>{{ $message->note->body }}</td>
+                    <td>{{ $message->note ? $message->note->body : '' }}</td>
                     <td>{{ $message->tags->pluck('nombre')->implode(', ') }}</td>
                     <td>
                         <a class="btn btn-info btn-xs" href="{{ route('mensajes.edit', $message->id) }}">Editar</a>

@@ -1,5 +1,5 @@
 {!! csrf_field() !!}
-@unless (isset($message) and $message->user_id)
+@if ($showFields)
     <p>
         <label for="nombre">
             Nombre
@@ -14,7 +14,7 @@
             {!! $errors->first('email', '<span class=error>:message</span>') !!}
         </label>
     </p>
-@endunless
+@endif
 <p>
     <label for="mensaje">
         Mensaje
