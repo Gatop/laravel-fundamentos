@@ -20,7 +20,7 @@ class MessagesController extends Controller
      */
     public function index()
     {
-        $messages = Message::all();
+        $messages = Message::with(['user', 'note', 'tags'])->get();
 
         return view('messages.index', compact('messages'));
     }

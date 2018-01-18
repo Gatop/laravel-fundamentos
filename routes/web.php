@@ -15,6 +15,13 @@
 //     'email' => 'jegaest@juju.com',
 //     'password' => bcrypt('test123'),
 // ]);
+
+// Listar sentencias sql en web
+/*DB::listen(function($query){
+    echo "<pre>{$query->sql}</pre>";
+    //echo "<pre>{$query->time}</pre>";
+});*/
+
 Route::get('roles', function(){
     return \App\Role::with('user')->get();
 });
